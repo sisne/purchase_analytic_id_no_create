@@ -11,7 +11,7 @@
                     context="{'default_partner_id':parent.partner_id}"
                     groups="purchase.group_analytic_accounting"
                     options="{'no_create': True, 'no_open': True}"
-                    required="1"
+                    required="0"
                 />
             </xpath>
             <xpath expr="//field[@name='analytic_tag_ids']" position="replace">                
